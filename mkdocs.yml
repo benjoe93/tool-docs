@@ -1,9 +1,9 @@
-site_name: Documentation
-site_url: https://sitename.example
+site_name: Tool Forge Documentations
+site_url: https://github.com/benjoe93/tool-docs
 theme:
   name: material
   features:
-    - navigation.footer
+    - navigation.footer: false
   font:
     text: Roboto
     code: Roboto Mono
@@ -29,9 +29,23 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+  
+  # Text formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  - pymdownx.blocks.caption
+  
+  # Emoji support
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
+  # Code formatting
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -46,3 +60,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/benjoe93
+    - icon: fontawesome/brands/artstation
+      link: https://www.artstation.com/benjoe
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/benblazer/
