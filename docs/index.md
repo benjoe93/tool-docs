@@ -13,3 +13,7 @@ Take a look around and see what you can build with us in your toolbox.
 ## Available Tools
 
 - [AutoCapture](/docs/AutoCaputre/02_usage.md)
+
+## Support
+
+If you run into any issues, please contact this email address: [toolforgeshop@gmail.com](mailto:toolforgeshop+support@gmail.com)
